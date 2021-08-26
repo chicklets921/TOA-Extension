@@ -1,0 +1,39 @@
+/* Correct the spacing on the table */
+
+#operatorLogListTable>tbody>tr>* {
+    white-space: nowrap !important;
+}
+
+#operatorLogListTable>tbody>tr>td:nth-child(2) {
+    width: 8% !important;
+    min-width: 110px !important;
+    white-space: normal !important;
+}
+
+#operatorLogListTable>tbody>tr>td:nth-child(4) {
+    width: 90% !important;
+    white-space: normal !important;
+}
+
+/* Light Theme Starts Here */
+
+.table-bordered, .table-bordered>thead>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>tfoot>tr>td, #filterList, .panel, .form-actions-top {
+    border: none !important;
+}
+
+.table-bordered, #filterList, .panel, .form-actions-top {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 5px !important;
+}
+
+body, .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #eaeaea !important;
+}
+
+#operatorLogListTable {
+    background-color: #fff !important;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th, .well, .panel, .form-actions-top {
+    background-color: #fff !important;
+}
