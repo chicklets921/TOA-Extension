@@ -1,7 +1,7 @@
 {
     "name": "TOA Enhancer",
-    "description": "Makes TOA more better",
-    "version": "0.1",
+    "description": "Corrects the styling of TOA and adds new functionality",
+    "version": "0.2",
     "manifest_version": 3,
     "icons": {
         "16": "/images/logo_16x16.png",
@@ -17,6 +17,53 @@
             ],
             "css": [
                 "css/TOA Light Mode.css"
+            ],
+			"js": [
+                "js/LOGS_background.js",
+                "js/HIGHLIGHT_background.js"
+            ]
+        },
+		{
+			"matches": [
+                "REMOVED FOR GITHUB UPLOAD"
+            ],
+            "css": [
+                "css/TOA Light Mode.css"
+            ],
+            "js": [
+                "js/DTIS_background.js"
+            ]
+		},
+        {
+            "matches": [
+                "REMOVED FOR GITHUB UPLOAD"
+            ],
+            "css": [
+                "css/TOA Light Mode.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://toa.ce.corp.com/itoa/outage/list.htmlx"
+            ],
+            "css": [
+                "css/TOA Light Mode.css"
+            ],
+			"js": [
+                "js/ORL_background.js"
+            ]
+        }
+    ],
+	"web_accessible_resources": [
+        {
+            "resources": [
+                "js/outage_calc.js",
+				"js/open_logs.js",
+                "js/outage_request_list.js",
+                "js/highlight_name.js"
+            ],
+            "matches": [
+                "REMOVED FOR GITHUB UPLOAD"
             ]
         }
     ]
