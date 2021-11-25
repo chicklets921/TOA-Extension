@@ -1,5 +1,4 @@
 (function() {
-    let $ = window.jQuery;
     $(document).ajaxComplete(function() {
         if($('#openCount').length < 1){
             createOpenElement();

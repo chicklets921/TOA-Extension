@@ -33,6 +33,9 @@
 	border-radius: 5px !important;
 }
 
+#outageList{
+	box-shadow:none !important;
+}
 
 body,
 #operatorLogListTable_wrapper > .table-striped > tbody > tr:nth-child(odd) > td,

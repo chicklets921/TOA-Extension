@@ -1,5 +1,4 @@
 (function() {
-
     $(document).ajaxStop(function() {
         if($('#calendarContainer').length < 1){
             addStyleSheet();
@@ -25,7 +24,7 @@ function calculateMinutes(){
 }
 
 function addStyleSheet(){
-    var styles = `
+    let styles = `
     #calendarContainer{
         width:100%;
         padding:10px;
@@ -44,7 +43,7 @@ function addStyleSheet(){
     }
     `;
 
-    var styleSheet = document.createElement('style')
+    let styleSheet = document.createElement('style')
     styleSheet.type = "text/css"
     styleSheet.innerText = styles
     document.head.appendChild(styleSheet);

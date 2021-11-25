@@ -1,5 +1,4 @@
 (function() {
-
     $(document).ajaxComplete(function() {
         findName();
     });

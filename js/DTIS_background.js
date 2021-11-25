@@ -1,4 +1,4 @@
-var s = document.createElement('script');
+let s = document.createElement('script');
 s.src = chrome.runtime.getURL('js/outage_calc.js');
 s.onload = function () {
     this.remove();
